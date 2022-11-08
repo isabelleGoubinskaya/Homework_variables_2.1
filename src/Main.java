@@ -44,6 +44,8 @@ public class Main {
         System.out.println(totalWeight);
         var diffWeight = warrior2 - warrior1;
         System.out.println(diffWeight);
+        var diffWeight2 = warrior2 % warrior1;
+        System.out.println(diffWeight2);
 
     }
 }
