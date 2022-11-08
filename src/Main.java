@@ -47,5 +47,12 @@ public class Main {
         var diffWeight2 = warrior2 % warrior1;
         System.out.println(diffWeight2);
 
+        var workHours = 640;
+        var numberWorkers = 640 / 8;
+        System.out.println("Всего работников в компании "+numberWorkers);
+        numberWorkers = numberWorkers + 94;
+        workHours = workHours / numberWorkers;
+        System.out.println("Если в компании работает "+ numberWorkers + " человек, то всего "+ workHours + " часов работы может быть поделено между сотрудниками");
+
     }
 }
